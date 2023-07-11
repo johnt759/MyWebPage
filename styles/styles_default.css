@@ -1,18 +1,6 @@
 h2 {
 	text-align: center;
 }
-button {
-  background-color: #333333;
-  border: none;
-  color: white;
-  padding: 15px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 4px;
-  cursor: pointer;
-}
 a:link, a:visited {
   background-color: white;
   color: black;
