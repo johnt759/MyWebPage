@@ -1,5 +1,12 @@
 h1 {
 	text-align: center;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+}
+.favorite_skills {
+	margin: 5px 25px;
 }
 a:link, a:visited {
   background-color: white;
@@ -17,4 +24,9 @@ a:hover {
 }
 a:active {
 	text-decoration: underline;
+}
+table {
+	border: 5px solid;
+	width: auto;
+	border-collapse: collapse;
 }
