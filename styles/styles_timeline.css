@@ -19,3 +19,23 @@ a:hover {
 a:active {
 	text-decoration: underline;
 }
+.container {
+	position: relative;
+}
+.courses {
+	display: none;
+}
+.cursor {
+	cursor: pointer;
+}
+.buttons {
+	display: inline-table;
+}
+.choice {
+	float: left;
+	width: auto;
+	opacity: 1;
+}
+.choice:hover {
+	opacity: 0.5;
+}
