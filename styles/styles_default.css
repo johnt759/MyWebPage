@@ -22,3 +22,6 @@ a:hover {
 a:active {
 	text-decoration: underline;
 }
+p {
+	margin: 5px 25px;
+}
