@@ -19,6 +19,10 @@ a:active {
 	text-decoration: underline;
 }
 
+#inaccessible {
+	pointer-events: none;
+}
+
 .collapsible {
   background-color: #777;
   color: white;
