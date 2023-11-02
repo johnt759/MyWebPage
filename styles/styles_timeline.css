@@ -11,6 +11,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  transition: 1s;
 }
 a:hover {
 	background-color: gray;
