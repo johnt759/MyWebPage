@@ -93,6 +93,12 @@ p {
   background-color: #717171;
 }
 
+.images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
