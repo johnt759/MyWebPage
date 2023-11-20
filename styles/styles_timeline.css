@@ -8,6 +8,7 @@ a:link, a:visited {
   border: 2px solid gray;
   padding: 10px 20px;
   margin: 5px 25px;
+  margin-top: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -30,7 +31,7 @@ a:active {
 	cursor: pointer;
 }
 .buttons {
-	display: inline-table;
+	display: flex;
 }
 .choice {
 	float: left;
@@ -39,4 +40,17 @@ a:active {
 }
 .choice:hover {
 	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.bachelor {
+	margin-right: 10px;
+}
+
+.master {
+	margin-left: 10px;
+}
+
+#text {
+	text-align: center;
 }
