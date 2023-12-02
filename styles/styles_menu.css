@@ -1,12 +1,6 @@
-h1 {
+h2, h3 {
 	text-align: center;
 	font-weight: bold;
-}
-h2 {
-	text-align: center;
-}
-h3 {
-	text-align: center;
 }
 u {
 	font-weight: bold;
@@ -16,11 +10,11 @@ a:link, a:visited {
   color: black;
   border: 2px solid gray;
   padding: 10px 20px;
-  margin: 5px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   transition: 1s;
+  margin: 5px 25px;
 }
 a:hover {
 	background-color: gray;
@@ -28,4 +22,41 @@ a:hover {
 }
 a:active {
 	text-decoration: underline;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-left: 10px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  max-width: 15%;
 }
