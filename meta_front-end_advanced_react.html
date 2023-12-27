@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Advanced React</title>
-	<link rel="stylesheet" href="styles/styles_default.css">
+	<link rel="stylesheet" href="styles/styles_slideshow.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
@@ -23,8 +23,42 @@
 	<li>React</li>
 	<li>Software Testing</li>
 	<li>APIs</li>
+	<li>Node.js</li>
+	<li>JavaScript</li>
 	</ul>
 	<hr>
+	<div class="image-container">
+		<div class="picture">
+			<img class="images" src="images/react-portfolio/landing_section.png"></img>
+			<div class="caption">Portfolio Landing Page</div>
+		</div>
+		<div class="picture">
+			<img class="images" src="images/react-portfolio/project_section.png"></img>
+			<div class="caption">Portfolio Project Page</div>
+		</div>
+		<div class="picture">
+			<img class="images" src="images/react-portfolio/contact_me_section.png"></img>
+			<div class="caption">Portfolio Contact Me Page</div>
+		</div>
+		<div class="picture">
+			<img class="images" src="images/react-portfolio/error_message.png"></img>
+			<div class="caption">Error after submitting</div>
+		</div>
+		<div class="picture">
+			<img class="images" src="images/react-portfolio/success_message.png"></img>
+			<div class="caption">Success after submitting</div>
+		</div>
+	</div>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+	</div>
+	<hr>
+	<a href="https:www.github.com/johnt759/ReactPortfolio">Link to repository</a>
 	<a href="certificates.html">Back to certificates list</a>
+	<script src="scripts/img_display.js"></script>
   </body>
 </html>
