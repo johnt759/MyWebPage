@@ -1,3 +1,6 @@
+* {
+	font-family: georgian;
+}
 h1 {
 	text-align: center;
 	font-weight: bold;
@@ -52,6 +55,10 @@ a:active {
 
 .active:after {
   content: "\2212";
+}
+
+#status {
+	margin-bottom: 10px;
 }
 
 .content {

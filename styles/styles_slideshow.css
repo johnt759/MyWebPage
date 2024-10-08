@@ -1,10 +1,7 @@
-h1 {
-	text-align: center;
-	font-weight: bold;
+* {
+	font-family: georgian;
 }
-h2 {
-	text-align: center;
-}
+
 a:link, a:visited {
   background-color: white;
   color: black;
@@ -23,9 +20,6 @@ a:hover {
 a:active {
 	text-decoration: underline;
 }
-p {
-	margin: 5px 25px;
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -34,20 +28,9 @@ p {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
+/* Hide all the contents by default */
+.slideshow {
   display: none;
-}
-
-/* Caption text */
-.caption {
-  color: #111111;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: relative;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* The dots/bullets/indicators */
@@ -66,14 +49,6 @@ p {
   background-color: #717171;
 }
 
-.images {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+#first-page, #last-page {
+	text-align: center;
 }
